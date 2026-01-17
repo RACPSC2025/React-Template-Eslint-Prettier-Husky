@@ -40,21 +40,21 @@ Este proyecto utiliza **pnpm**. Por favor, no uses `npm` o `yarn` para evitar co
 | **Formatear código** | `pnpm prettier-fix` |
 | **Previsualizar Build** | `pnpm preview` |
 
-## Librerias
+## 📚 Instalación de Librerías
+
+Lista de comandos para instalar las dependencias del proyecto:
+
+### Dependencias principales
+```bash
 npm install -g pnpm@latest-10
 pnpm create vite@latest frontend
-pnpm install tailwindcss @tailwindcss/vite
-pnpm add -D prettier eslint-config-prettier eslint-plugin-prettier 
-pnpm add -D eslint-plugin-react-hooks eslint-plugin-react
-pnpm add -D husky
-pnpm add -D lint-staged
-pnpm install zod
-pnpm add react-router-dom
-pnpm install @reduxjs/toolkit react-redux
-pnpm add react-hook-form @hookform/resolvers
-pnpm add axios
-pnpm install i18next react-i18next
-pnpm add react-icons
+pnpm install react-router-dom @reduxjs/toolkit react-redux zod react-hook-form @hookform/resolvers axios i18next react-i18next react-icons
+```
+
+### Dependencias de desarrollo
+```bash
+pnpm add -D tailwindcss @tailwindcss/vite prettier eslint-config-prettier eslint-plugin-prettier eslint-plugin-react-hooks eslint-plugin-react husky lint-staged
+```
 
 ## 🛡️ Calidad de Código y Git Hooks
 

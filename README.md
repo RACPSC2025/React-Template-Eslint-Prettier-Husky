@@ -1,5 +1,5 @@
 
-# 🚀 Frontend Professional Template
+# 🚀 Frontend Template
 
 Este es el template base oficial del equipo. Configurado con **React 19**, **Vite** y un flujo de trabajo basado en **pnpm** para garantizar un rendimiento óptimo y una arquitectura escalable.
 

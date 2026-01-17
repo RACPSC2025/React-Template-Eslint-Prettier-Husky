@@ -77,8 +77,22 @@ Hemos configurado un flujo de trabajo estricto para asegurar la calidad antes de
 
 1. **Husky:** Gestiona los Git Hooks automáticamente.
 2. **Lint-staged:** Al realizar un `git commit`, solo se analizan y corrigen los archivos modificados.
-* Archivos `.js` y `.jsx`: Ejecutan `eslint --fix` y `prettier --write`.
-* Archivos `.json`, `.css` y `.md`: Ejecutan `prettier --write`.
+   * Archivos `.js` y `.jsx`: Ejecutan `eslint --fix` y `prettier --write`.
+   * Archivos `.json`, `.css` y `.md`: Ejecutan `prettier --write`.
+
+### Configuración inicial de Git Hooks
+
+Para que los hooks de Git funcionen correctamente, después de clonar el repositorio por primera vez, debes ejecutar:
+
+```bash
+pnpm husky-prepare
+```
+
+Este comando prepara Husky para gestionar los hooks de Git. Si recibes un error de permisos en sistemas Unix/Linux/Mac, puede que necesites hacer ejecutable el directorio de Husky:
+
+```bash
+chmod +x .husky/*
+```
 
 ## 🌐 Internacionalización (i18n)
 

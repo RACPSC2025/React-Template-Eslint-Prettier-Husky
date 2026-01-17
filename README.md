@@ -14,6 +14,41 @@ Este es el template base oficial del equipo. Configurado con **React 19**, **Vit
 * **Cliente HTTP:** [Axios](https://axios-http.com/).
 * **Iconos:** [React Icons](https://react-icons.github.io/react-icons/).
 
+## 📚 Librerías Utilizadas y su Propósito
+
+### Dependencias Principales
+
+* **React 19 & React DOM:** Biblioteca principal para construir interfaces de usuario interactivas y componentes reutilizables.
+* **React Router DOM:** Sistema de enrutamiento declarativo para aplicaciones React que permite la navegación entre diferentes vistas.
+* **Redux Toolkit:** Conjunto de herramientas oficial para administrar el estado global de la aplicación de manera eficiente.
+* **React Redux:** Biblioteca de enlace que conecta React con Redux para acceder al estado global en componentes.
+* **Zod:** Biblioteca de validación de esquemas en tiempo de ejecución que permite validar tipos de datos y formularios.
+* **React Hook Form:** Biblioteca para gestión de formularios con validación, manipulación de entradas y manejo de errores.
+* **@hookform/resolvers:** Integración de React Hook Form con bibliotecas de validación como Zod.
+* **Axios:** Cliente HTTP basado en promesas para realizar solicitudes a APIs externas y servicios backend.
+* **i18next & react-i18next:** Sistema completo de internacionalización para soportar múltiples idiomas en la aplicación.
+* **React Icons & Lucide React:** Colecciones de iconos listos para usar como componentes React.
+* **@emotion/react & @emotion/styled:** Bibliotecas para estilado con CSS-in-JS que permiten estilos dinámicos y basados en props.
+* **@mui/material:** Biblioteca de componentes de Material Design para construir interfaces consistentes y accesibles.
+* **@fontsource/roboto:** Fuente Roboto disponible como paquete npm para uso sin CDN.
+* **motion:** Biblioteca de animación basada en Framer Motion para crear interfaces dinámicas y fluidas.
+
+### Dependencias de Desarrollo
+
+* **Vite:** Herramienta de construcción rápida con recarga instantánea para desarrollo moderno de JavaScript.
+* **@vitejs/plugin-react:** Plugin para Vite que habilita el soporte de React con Fast Refresh.
+* **Tailwind CSS:** Framework de CSS utilitario para construir diseños personalizados rápidamente.
+* **@tailwindcss/vite:** Integración nativa de Tailwind CSS con Vite para compilación más rápida.
+* **ESLint:** Linter para encontrar y corregir problemas en el código JavaScript/React.
+* **Prettier:** Formateador de código para mantener un estilo consistente en todo el proyecto.
+* **Husky:** Herramienta para ejecutar scripts de Git hooks y mantener la calidad del código.
+* **lint-staged:** Ejecuta linters en archivos Git staged antes de cada commit.
+* **Testing Library:** Conjunto de utilidades para probar componentes de React de forma accesible.
+* **Jest:** Framework de pruebas para JavaScript con funciones de aserción, simulación y cobertura.
+* **@types/react & @types/react-dom:** Tipos de TypeScript para React (útiles incluso sin usar TS).
+* **FullCalendar:** Bibliotecas para integrar calendarios interactivos con soporte para eventos y programación (daygrid, interaction, react).
+* **PDF.js:** Biblioteca para renderizar documentos PDF directamente en el navegador.
+
 ## 📂 Arquitectura de Carpetas
 
 Basado en la estructura del proyecto:

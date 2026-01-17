@@ -48,13 +48,28 @@ Lista de comandos para instalar las dependencias del proyecto:
 ```bash
 npm install -g pnpm@latest-10
 pnpm create vite@latest frontend
-pnpm install react-router-dom @reduxjs/toolkit react-redux zod react-hook-form @hookform/resolvers axios i18next react-i18next react-icons
+pnpm install react-router-dom @reduxjs/toolkit react-redux zod react-hookform @hookform/resolvers axios i18next react-i18next react-icons
 ```
 
 ### Dependencias de desarrollo
 ```bash
 pnpm add -D tailwindcss @tailwindcss/vite prettier eslint-config-prettier eslint-plugin-prettier eslint-plugin-react-hooks eslint-plugin-react husky lint-staged
 ```
+
+### Herramientas de testing
+```bash
+pnpm add -D jest jest-environment-jsdom @testing-library/react @testing-library/jest-dom @testing-library/user-event
+```
+
+## 🧪 Testing
+
+El proyecto incluye un conjunto completo de herramientas para pruebas unitarias e integración:
+
+- **Jest**: Framework de pruebas que proporciona funciones de aserción, simulación y cobertura de código
+- **jest-environment-jsdom**: Entorno de pruebas que simula un navegador para pruebas de componentes
+- **@testing-library/react**: Utilidades para probar componentes de React de forma accesible
+- **@testing-library/jest-dom**: Extensiones de aserción para verificar el estado del DOM
+- **@testing-library/user-event**: Simula eventos de usuario reales para pruebas más precisas
 
 ## 🛡️ Calidad de Código y Git Hooks
 
